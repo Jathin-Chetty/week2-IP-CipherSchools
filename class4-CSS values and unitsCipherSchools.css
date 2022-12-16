@@ -1,0 +1,36 @@
+/* this is paragraph styling */
+p{
+    color: blue;
+    background-color: bisque;
+    	/* Absolute units */
+	width: 20px;
+	/*Relative units*/
+	width: 70vw;
+	/*The numbered values with no units*/
+	margin: 0;
+	line-height: 1.2;
+}
+
+/* there are two types of length values */
+/* absolute(includes px or cm(width is always fixed)) and relative(will resize with screen) */
+/* we mostly use relative units as it is responsive */
+/* 0 deosnt require units */
+/* line height also does not require units */
+
+div {
+	/*Function Values*/
+	transform: rotate(0deg);
+	width: calc(100% - 20px);
+	height: 100vh;
+	background-image: url("./assets/small.jpg");
+}
+
+/* Grouping Selector */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: blue;
+}

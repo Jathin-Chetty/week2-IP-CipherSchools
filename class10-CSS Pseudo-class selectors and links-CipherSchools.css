@@ -1,0 +1,23 @@
+a {
+	color: red;
+}
+/* only tags with href */
+a:link {
+	color: brown;
+}
+/* while hovering over it */
+a:hover {
+	background-color: cornsilk;
+}
+/* when a tag is active(when clicking it) */
+a:active {
+	color: black;
+}
+/* when it is focused */
+a:focus {
+	border: 1px solid green;
+}
+/* when the link is visited */
+a:visited {
+	color: purple;
+}

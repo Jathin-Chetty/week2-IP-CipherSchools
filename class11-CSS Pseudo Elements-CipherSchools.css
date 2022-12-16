@@ -1,0 +1,31 @@
+/* will show the content specified after the content (used for elements and icons) */
+p::after {
+	content: "This is the para";
+}
+/* will show the content specified beforethe content(used for elements and icons) */
+p::before {
+	content: "This is the para";
+}
+/* selecting the first letter */
+p::first-letter {
+	background-color: red;
+}
+/* selecting the first line */
+p::first-line {
+	color: royalblue;
+}
+/* when paragraph is selcted */
+p::selection {
+	background-color: salmon;
+	color: #fff;
+}
+
+li::marker {
+	color: seagreen;
+	font-size: 30px;
+}
+
+input[type="text"]::placeholder {
+	color: #fff;
+	background-color: slategrey;
+}

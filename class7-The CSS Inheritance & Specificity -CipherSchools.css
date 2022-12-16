@@ -1,0 +1,53 @@
+/* priority in css
+universal 
+type
+class */
+/* more importance is giving to the commands in bottom
+it has decndent priority */
+
+
+/*Universal Selector*/
+/* we do not usually use baground colour in universal selector */
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+
+
+
+body {
+	color: #2f8aa9;
+}
+
+/* this is paragraph styling */
+p{
+    color: inherit;
+    /* inherits colour from body */
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: hsla(900deg, 60%, 70%, 0.6);
+    	/* Absolute units */
+	width: 20px;
+	/*Relative units*/
+	width: 70vw;
+	/*The numbered values with no units*/
+	margin: 0;
+	line-height: 1.2;
+}
+
+* {
+	color: green;
+}
+
+p {
+    /* adding important key word will fix the value
+    but it is generally not used as it will remove flexibility */
+	color: red important;
+}
+
+p {
+	/* This will be prefered */
+	color: blueviolet;
+	font-size: 20px;
+	font-size: 30px; /* This will be prefered */
+}
